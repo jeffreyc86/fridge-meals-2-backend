@@ -20,6 +20,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'rest-client', '~> 2.1'
 gem 'json', '~> 2.5', '>= 2.5.1'
 gem 'faker', '~> 1.6', '>= 1.6.3'
+gem 'jwt'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -28,7 +29,7 @@ gem 'faker', '~> 1.6', '>= 1.6.3'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+gem 'rack-cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
